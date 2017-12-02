@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Playing with Layouts</title>
+    <style>
+
+        #container{
+
+            margin: auto;
+            position: relative;
+            width: 760px;
+            height: 560px;
+            border: 8px solid green;
+            text-indent: 5px;
+            line-height: 25px;
+        }
+
+        #header {
+            position: absolute;
+            top:45px;
+            height:60px;
+            width: 700px;
+            left:30px;
+            text-indent: 5px;
+            line-height: 25px;
+            border:6px solid red;
+        }
+        #nav {
+            position: absolute;
+            top:145px;
+            height:250px;
+            width: 60px;
+            left:30px;
+            text-indent: 5px;
+            line-height: 25px;
+            border:4px solid blue;
+        }
+        #content {
+            position: absolute;
+            top:145px;
+            height:250px;
+            width: 450px;
+            left:150px;
+            text-indent: 5px;
+            line-height: 25px;
+            border:4px solid maroon;
+        }
+
+        #ads {
+            position: absolute;
+            top:145px;
+            height:350px;
+            width: 60px;
+            right: 30px;
+            text-indent: 5px;
+            line-height: 25px;
+            border:4px solid black;
+        }
+
+        #subNav {
+            position: absolute;
+            top:19px;
+            height:30px;
+            width: 400px;
+            left:30px;
+            text-indent: 5px;
+            line-height: 25px;
+            border:2px solid darkseagreen;
+        }
+
+        #sample {
+            position: absolute;
+            top:65px;
+            height:150px;
+            width: 70px;
+            left:30px;
+            text-indent: 5px;
+            line-height: 25px;
+            border:2px solid orange;
+        }
+
+        #sample1 {
+            position: absolute;
+            top:65px;
+            height:150px;
+            width: 70px;
+            left:175px;
+            text-indent: 5px;
+            line-height: 25px;
+            border:2px solid orange;
+        }
+
+        #sample2 {
+            position: absolute;
+            top:65px;
+            height:150px;
+            width: 70px;
+            right:30px;
+            text-indent: 5px;
+            line-height: 25px;
+            border:2px solid orange;
+        }
+
+
+        #footer {
+            position: absolute;
+            bottom:45px;
+            height:60px;
+            width: 570px;
+            left:30px;
+            text-indent: 5px;
+            line-height: 25px;
+            border:4px solid yellowgreen;
+        }
+
+
+
+
+    </style>
+
+</head>
+
+
+
+<body>
+
+
+
+
+<p>Playing with Layout</p>
+
+<div id = "container"> #container
+    <div id = "header">  #header </div>
+    <div id = "nav"> #nav</div>
+    <div id = "content">#content
+        <div id = "subNav" >#subNav</div>
+        <div id = "sample">#sample</div>
+        <div id = "sample1">#sample</div>
+        <div id = "sample2">#sample</div>
+
+    </div>
+    <div id = "ads">#ads</div>
+    <div id = "footer">#footer</div>
+</div>
+
+</body>
+</html>
